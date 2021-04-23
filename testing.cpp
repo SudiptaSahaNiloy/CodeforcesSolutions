@@ -194,5 +194,23 @@ void Divisors(int n)
 
 int main()
 {
-   
+    int n;
+
+    cout << "Enter a number: ";
+
+    cin >> n;
+
+    sieve(n);
+
+    // cout << "Prime numbers are: ";
+
+    // for(int i = 0; i < Prime.size(); i++){
+    //     cout <<  Prime[i] << " ";
+    // }
+
+    cout << endl;
+
+    //cout << "Divisors: " << Divisors(n);
+
+    cout << "No of Divisors: " << NoOfDivisors(n);
 }
